@@ -12,13 +12,14 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
-
 import { TjsAdditionComponent } from './tjs-addition/tjs-addition.component';
+import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PizzaToppingsComponent,
+    TjsMultiplicationComponent,
     TjsAdditionComponent
   ],
   imports: [
@@ -28,7 +29,7 @@ import { TjsAdditionComponent } from './tjs-addition/tjs-addition.component';
     MatCardModule,
     MatCheckboxModule,
     MatFormFieldModule,
-    MatButtonModule, 
+    MatButtonModule,
     MatInputModule
   ],
   providers: [],
